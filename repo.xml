@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Demo data for XRX application to keep track of your time.</description>
+    <author>Tobi Krebs</author>
+    <website>http://www.betterform.de</website>
+    <status>stable</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>/db/betterform/data/timetracker</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="betterform" password="betterfrom" group="betterform" mode="0755"/>
+</meta>
