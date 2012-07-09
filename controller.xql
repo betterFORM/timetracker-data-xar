@@ -6,7 +6,7 @@ declare variable $exist:resource external;
 if ($exist:path eq "/") then
     (: forward root path to index.xql :)
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-        <redirect url="apps/betterform/apps/timetracker/index.xql"/>
+        <redirect url="../../apps/timetracker/index.xql"/>
     </dispatch>
 else
     (: everything else is passed through :)
