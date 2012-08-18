@@ -3,6 +3,6 @@
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/betterFORM Timetracker demo data-0.1.xar" excludes="${build.dir}/*, modules/*, resources/*"/>
+        <zip basedir="." destfile="${build.dir}/betterFORM Timetracker demo data-0.1.xar" excludes="${build.dir}/*, modules/*, resources/*, .idea/*"/>
     </target>
 </project>
