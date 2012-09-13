@@ -30,7 +30,7 @@
     </contacts>
     <projects>
         <project id="1" shortName="application1">
-            <name>An Application</name>
+            <name>Project E</name>
             <iterations>
                 <iteration id="1">Milestone 1</iteration>
                 <iteration id="2">Milestone 2</iteration>

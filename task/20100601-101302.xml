@@ -4,7 +4,7 @@
   ~ Licensed under the terms of BSD License
   -->
 <data>
-    <task client="2" project="1" iteration="1">
+    <task clientref="2" projectref="1">
         <date>2011-05-04</date>
         <start/>
         <end/>
