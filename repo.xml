@@ -9,7 +9,7 @@
     <status>stable</status>
     <license>BSD License</license>
     <copyright>true</copyright>
-    <type>application</type>
-    <target>/db/betterform/data/timetracker</target>
+    <type>library</type>
+    <target>/db/timetracker-data</target>
     <prepare>pre-install.xql</prepare>
 </meta>
